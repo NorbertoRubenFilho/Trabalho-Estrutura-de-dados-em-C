@@ -63,13 +63,15 @@ void mergeSort(int arr[], int l, int r)
     }
 }
  
-void printArray(int A[]
+void printArray(int A[])
 
 {
     int i;
     for (i = 0; i < size; i++)
+    {
         printf("%d ", A[i]);
     printf("\n");
+    {
 }
  
 
